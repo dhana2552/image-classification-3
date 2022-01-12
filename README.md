@@ -14,7 +14,7 @@ The project is designed to be dataset independent so if there is a dataset that 
 ### Access
 Upload the data to an S3 bucket through the AWS Gateway so that SageMaker has access to the data. 
 
-![S3 Bucket](images_for_readme/S3.png)
+![S3 Bucket](images_for_readme/S3.PNG)
 
 ## Hyperparameter Tuning
 What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
@@ -26,11 +26,11 @@ The pretrained model resnet50 was sufficient enough to train the model for the g
 Remember that your README should:
 
 - Include a screenshot of completed training jobs
-![Completed Training Jobs](images_for_readme/Completed_Training_Job.png)
+![Completed Training Jobs](images_for_readme/Completed_Training_Job.PNG)
 
 - Logs metrics during the training process
-![Training Metrics](images_for_readme/Metrics.png)
-![Logs](images_for_readme/Logs.png)
+![Training Metrics](images_for_readme/Metrics.PNG)
+![Logs](images_for_readme/Logs.PNG)
 
 - Tune at least two hyperparameters
 ```
@@ -87,7 +87,7 @@ predictor = pytorch_model.deploy(initial_instance_count=1, instance_type="ml.t2.
 
 **TODO** Remember to provide a screenshot of the deployed active endpoint in Sagemaker.
 
-![Deployed Endpoint](images_for_readme/Endpoints.png)
+![Deployed Endpoint](images_for_readme/Endpoints.PNG)
 
 ## Standout Suggestions
 **TODO (Optional):** This is where you can provide information about any standout suggestions that you have attempted.
